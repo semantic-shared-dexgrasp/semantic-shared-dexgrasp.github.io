@@ -209,6 +209,21 @@ function limitRepeatedMeshes(figure, options) {
   };
 }
 
+function normalizeTraceNames(figure) {
+  const replacements = new Map([
+    ["Partial noisy point cloud", "Partial point cloud"],
+    ["Dataset reference grasp", "Reference grasp"],
+    ["Palm trajectory (pre-grasp)", "Pre-grasp trajectory"],
+    ["Palm trajectory (post-grasp)", "Post-grasp trajectory"],
+  ]);
+
+  figure.data.forEach((trace) => {
+    if (replacements.has(trace.name)) {
+      trace.name = replacements.get(trace.name);
+    }
+  });
+}
+
 function normalizeFigureLayout(figure) {
   const axisStyle = (axis, title) => ({
     ...(axis ?? {}),
@@ -289,6 +304,7 @@ async function main() {
   const html = await readFile(options.inputPath, "utf8");
   const figure = extractFigure(html);
   const traceSummary = limitRepeatedMeshes(figure, options);
+  normalizeTraceNames(figure);
   normalizeFigureLayout(figure);
 
   figure.config = {
