@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dispenser-3398-twist",
+    "objectId": "dispenser",
+    "objectLabel": "Dispenser",
+    "graspId": "twist",
+    "graspLabel": "Twist",
+    "sourceObjectId": "3398",
+    "generation": "assets/playground/dispenser-3398-twist-generation.plotly.json",
+    "motion": "assets/playground/dispenser-3398-twist-motion.plotly.json"
+  },
+  {
+    "id": "dispenser-3398-wrap-grasp",
+    "objectId": "dispenser",
+    "objectLabel": "Dispenser",
+    "graspId": "wrap-grasp",
+    "graspLabel": "Wrap grasp",
+    "sourceObjectId": "3398",
+    "generation": "assets/playground/dispenser-3398-wrap-grasp-generation.plotly.json",
+    "motion": "assets/playground/dispenser-3398-wrap-grasp-motion.plotly.json"
+  },
+  {
+    "id": "handle-bottle-3408-handle-grasp",
+    "objectId": "handle-bottle",
+    "objectLabel": "Handle bottle",
+    "graspId": "handle-grasp",
+    "graspLabel": "Handle grasp",
+    "sourceObjectId": "3408",
+    "generation": "assets/playground/handle-bottle-3408-handle-grasp-generation.plotly.json",
+    "motion": "assets/playground/handle-bottle-3408-handle-grasp-motion.plotly.json"
+  },
+  {
+    "id": "handle-bottle-3408-wrap-grasp",
+    "objectId": "handle-bottle",
+    "objectLabel": "Handle bottle",
+    "graspId": "wrap-grasp",
+    "graspLabel": "Wrap grasp",
+    "sourceObjectId": "3408",
+    "generation": "assets/playground/handle-bottle-3408-wrap-grasp-generation.plotly.json",
+    "motion": "assets/playground/handle-bottle-3408-wrap-grasp-motion.plotly.json"
+  },
+  {
+    "id": "jar-4118-support",
+    "objectId": "jar",
+    "objectLabel": "Jar",
+    "graspId": "support",
+    "graspLabel": "Support",
+    "sourceObjectId": "4118",
+    "generation": "assets/playground/jar-4118-support-generation.plotly.json",
+    "motion": "assets/playground/jar-4118-support-motion.plotly.json"
+  },
+  {
+    "id": "jar-4118-twist",
+    "objectId": "jar",
+    "objectLabel": "Jar",
+    "graspId": "twist",
+    "graspLabel": "Twist",
+    "sourceObjectId": "4118",
+    "generation": "assets/playground/jar-4118-twist-generation.plotly.json",
+    "motion": "assets/playground/jar-4118-twist-motion.plotly.json"
+  },
+  {
+    "id": "jar-4118-wrap-grasp",
+    "objectId": "jar",
+    "objectLabel": "Jar",
+    "graspId": "wrap-grasp",
+    "graspLabel": "Wrap grasp",
+    "sourceObjectId": "4118",
+    "generation": "assets/playground/jar-4118-wrap-grasp-generation.plotly.json",
+    "motion": "assets/playground/jar-4118-wrap-grasp-motion.plotly.json"
+  },
+  {
+    "id": "pot-4188-support",
+    "objectId": "pot",
+    "objectLabel": "Pot",
+    "graspId": "support",
+    "graspLabel": "Support",
+    "sourceObjectId": "4188",
+    "generation": "assets/playground/pot-4188-support-generation.plotly.json",
+    "motion": "assets/playground/pot-4188-support-motion.plotly.json"
+  },
+  {
+    "id": "pot-4188-wrap-grasp",
+    "objectId": "pot",
+    "objectLabel": "Pot",
+    "graspId": "wrap-grasp",
+    "graspLabel": "Wrap grasp",
+    "sourceObjectId": "4188",
+    "generation": "assets/playground/pot-4188-wrap-grasp-generation.plotly.json",
+    "motion": "assets/playground/pot-4188-wrap-grasp-motion.plotly.json"
+  }
+]
